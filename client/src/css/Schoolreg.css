@@ -1,0 +1,90 @@
+.conn{
+    display: flex;
+    flex-direction: row;
+    border: 3px solid var(--border);
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    height: 800px;
+}
+.label{
+    font-size: large;
+    margin-right: 150px;
+    color: var(--border);
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    border-right: 3px solid var(--border);
+    text-align: center;
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+.schoolname{
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 10px;
+    font-size: larger;
+    width: 295px;
+    padding-left: 10px;
+    color: var(--border);
+
+}
+.schooladdress{
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 10px;
+    font-size: larger;
+    width: 295px;
+    padding-left: 10px;
+    color: var(--border);
+}
+.schoollogo{
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 30px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    width: 295px;
+    color: var(--border);
+}
+.registerbtn{
+    border: 2px solid var(--border);
+    font-size: large;
+    width: 200px;
+    border-radius: 5px;
+    background-color: rgb(0, 77, 0);
+    color: white;
+}
+.registerbtn:hover{
+    border: 2px solid black;
+    font-size: large;
+    width: 200px;
+    border-radius: 5px;
+    background-color: rgb(11, 159, 11);
+    color: rgb(0, 0, 0);
+}
+.h1{
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 30px;
+    color: var(--border);
+}
+.dark-theam{
+    --border: white;
+    --background: rgb(18, 14, 36);
+}
+.light-theam{
+    --border: rgb(0, 0, 0);
+    --background: white;
+}
+section{
+    background-color: var(--background);
+    height: 900px;
+}

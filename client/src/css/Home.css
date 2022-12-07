@@ -1,0 +1,144 @@
+.welcome {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 100px;
+    color: var(--border);
+}
+
+.title {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 100px;
+    color: var(--border);
+}
+
+.connta {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.main{
+    background-color:rgba(132, 126, 126, 0.5);
+}
+.logoimg {
+    width: 300px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.dark-theam {
+    --border: white;
+    --background: rgb(18, 14, 36);
+}
+
+.light-theam {
+    --border: rgb(0, 0, 0);
+    --background: white;
+}
+
+.section {
+    background-color: var(--background);
+}
+
+.home-section {
+    background-image: url("../Images/Locoshop\ bg.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.homeh1{
+    font-weight: bolder;
+    text-align: left;
+    font-size: xx-large;
+}
+.content{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    background: linear-gradient(#f16775, rgb(50, 241, 255));
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.h5{
+    font-size: larger;
+    margin-top: 30px;
+}
+.maincontent{
+    width: 100%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+.homeimage{
+    width: 100%;
+    margin-left: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 30px;
+}
+.conclude{
+    text-align: center;
+    font-weight: bold;
+}
+.home_name{
+    background-color: #ccc9f2;
+    color: black;
+    width: 400px;
+    height: 40px;
+}
+.home_email{
+    background-color: #ccc9f2;
+    color: black;
+    margin-top: 20px;
+    width: 400px;
+    height: 40px;
+}
+.home_message{
+    background-color: #ccc9f2;
+    color: black;
+    margin-top: 20px;
+    width: 400px;
+}
+.home_name::placeholder{
+    color: black;
+}
+.home_email::placeholder{
+    color: black;
+}
+.home_message::placeholder{
+    color: black;
+}
+/* 6369f5 */
+.Send{
+    background-color: #6369f5;
+    width: 400px;
+    color: white;
+    font-weight: bold;
+    height: 30px;
+}
+.contactimage{
+    border-radius: 25px;
+}
+.devimage{
+    height: 500px;
+    width: 350px;
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.footer{
+    background-color: black;
+    width: 100%;
+    text-align: right;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: large;
+    color: white;
+}

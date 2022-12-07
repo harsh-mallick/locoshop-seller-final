@@ -1,0 +1,66 @@
+.sections{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.conntainers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+    width: 400px;
+    text-align: center;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+.userpng{
+    background-color: azure;
+    border-radius: 50%;
+    height: 200px;
+    border: 2px solid black;
+    width: 200px;
+    align-self: center;
+}
+.name{
+    font-size: large;
+    align-self: flex-start;
+    margin-left: 78px;
+}
+.userid{
+    font-size: large;
+    align-self: flex-start;
+    margin-left: 75px;
+}
+.email{
+    font-size: large;
+    align-self: flex-start;
+    margin-left: 78px;
+}
+.address{
+    font-size: large;
+    align-self: flex-start;
+    margin-left: 78px;
+}
+.hrtag{
+    width: 270px;
+    margin-left: 78px;
+}
+.editpro{
+    margin-top: 40px;
+    background: linear-gradient(to right, purple, rgb(193, 0, 193), pink);
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 200px;
+    align-self: center;
+}
+.grid{
+    display: grid;
+    gap: 2rem;
+}
+.grid-4-col{
+    grid-template-columns: repeat(4, 1fr);
+}

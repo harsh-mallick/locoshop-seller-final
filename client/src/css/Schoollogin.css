@@ -1,0 +1,104 @@
+.conntainer{
+    display: flex;
+    flex-direction: row;
+    border: 3px solid var(--border);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.mains{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    border-right: 3px solid var(--border);
+    height: 500px;
+    background-color: var(--formbackground);
+    padding-left: 200px;
+    padding-right: 100px;
+}
+.heading{
+    font-size: xx-large;
+    font-weight: bolder;
+    color: var(--border)
+}
+.subheading{
+    font-size: large;
+    margin-bottom: 30px;
+    color: var(--border)
+}
+.carsoul{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    height: 500px;
+}
+.loginimg{
+    height: 720px;
+    width: 700px;
+}
+section{
+    background-color: var(--background);
+}
+.logintextbox{
+    border: 2px solid var(--border);
+    border-radius: 50px;
+    height: 40px;
+    padding-left: 12px;
+    width: 300px;
+}
+.labels{
+    font-weight: bold;
+    color: var(--border)
+}
+.forget{
+    text-align: right;
+    color: rgb(78, 52, 237);
+    margin-right: 200px;
+    margin-top: 15px;
+}
+.Loginbtn{
+    background-color: rgb(78, 52, 237);
+    color: #ffff;
+    width: 300px;
+    height: 40px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.notregister{
+    font-size: medium;
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    font-weight: bold;
+    margin-top: 30px;
+    color: var(--border)
+}
+.create{
+    color: rgb(78, 52, 237);    
+}
+.hr{
+    margin-top: 10px;
+    width: 350px;
+}
+.dark-theam{
+    --border: white;
+    --background: rgb(18, 14, 36);
+    --formbackground: black;
+}
+.light-theam{
+    --border: rgb(0, 0, 0);
+    --background: rgb(220, 224, 254);
+    --formbackground: white;
+}
+.h1login{
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-bottom: 15px;
+    color: var(--border);
+    font-size: 40px;
+}

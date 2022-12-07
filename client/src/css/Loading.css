@@ -1,0 +1,15 @@
+.loading{
+    height: 500px;
+    text-align: center;
+}
+main{
+    height: 679px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    background-color: black;
+    overflow: hidden;
+}
